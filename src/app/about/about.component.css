@@ -1,0 +1,14 @@
+.container {
+    width: 70%;
+    align-content: center;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+h3 {
+    color: blue;
+    font-variant-position: initial;
+}

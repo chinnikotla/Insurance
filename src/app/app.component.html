@@ -1,0 +1,29 @@
+<div>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      
+      <ul class="nav navbar-nav">
+          
+          <li><a routerLink="/home-page"><span class="glyphicon glyphicon-home"></span> <b> Home</b></a></li>
+          
+          <li><a routerLink="/about"><span class="glyphicon glyphicon-globe"></span> <b> About Site</b></a></li>
+
+      <div class="dropdown">
+        <button class="dropbtn">INSURANCE</button>
+        <div class="dropdown-content">
+          <a routerLink="/health">Health</a>
+          <a routerLink="/vechile">Vehicle</a>
+          <a routerLink="/house">Home</a>
+          <a routerLink="/life">Life</a>
+        </div>
+      </div>
+    </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+          <li><a routerLink="/registration"><span class="glyphicon glyphicon-user"></span> <b> Sign Up</b></a></li>
+          <li><a routerLink="/login"><span class="glyphicon glyphicon-log-in"></span> <b> Login</b></a></li>
+        </ul>
+    </div>
+  </nav>
+</div>
+<router-outlet></router-outlet>
